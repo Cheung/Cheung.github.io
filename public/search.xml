@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title></title>
+    <url>%2F2019%2F04%2F28%2Ftest%2F</url>
+    <content type="text"><![CDATA[TEST1.]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[JSP]]></title>
+    <url>%2F2018%2F01%2F01%2FJSP%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>JSP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Cookie & Session]]></title>
+    <url>%2F2018%2F01%2F01%2FCookie%20%26%20Session%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Cookie &amp; Session</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Ajax]]></title>
+    <url>%2F2018%2F01%2F01%2FAjax%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Ajax</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[计算机网络]]></title>
+    <url>%2F2018%2F01%2F01%2F%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%2F</url>
+    <content type="text"><![CDATA[计算机网络：把分布在不同区域的计算机与专门的外部设备用通信线路互连成一个规模大、功能强的网络系统，从而使众多计算机可以方便的传递信息、共享硬件、软件、数据信息等资源 计算机网络的主要功能：资源共享、信息传输与集中管理网络分层 5层物理层数据链路层网络层运输层应用层]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[计算机原理]]></title>
+    <url>%2F2018%2F01%2F01%2F%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86%2F</url>
+    <content type="text"><![CDATA[计算机语言发展史 机器语言01代码-汇编语言 英文缩写助记符–面向过程/面向对象解释性语言 编译型语言 jdk1.5以后不同配置classpath？]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[操作系统]]></title>
+    <url>%2F2018%2F01%2F01%2F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%2F</url>
+    <content type="text"><![CDATA[进程 线程 信号量 进程间通信 死锁进程调度算法存储 虚拟存储 分页分段 内存调度算法文件系统 链式 索引]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[数据结构]]></title>
+    <url>%2F2018%2F01%2F01%2F%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%2F</url>
+    <content type="text"><![CDATA[时间复杂度O(n) 算法基础知识线性表 栈 队列 数组 广义表字符串 模式匹配树 二叉树 二叉搜索树 哈夫曼 贪心算法图 广度优先 深度优先 最短路径九大排序查找]]></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[设计模式]]></title>
+    <url>%2F2018%2F01%2F01%2F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>设计模式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Tomcat]]></title>
+    <url>%2F2018%2F01%2F01%2FTomcat%2F</url>
+    <content type="text"><![CDATA[Web开发基本概念 静态web 动态web 怎么访问的 常见Web服务器 Tomcat 安装、启动、测试、常见问题javahome 端口占用 tomcat服务器端口配置conf文件夹下server.xml配置文件 服务器虚拟目录映射 Eclipse绑定tomcat并发布]]></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Tomcat</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[log4j]]></title>
+    <url>%2F2018%2F01%2F01%2Flog4j%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>log4j</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[XML]]></title>
+    <url>%2F2018%2F01%2F01%2FXML%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>XML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Struts2]]></title>
+    <url>%2F2018%2F01%2F01%2FStruts2%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Struts2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SpringCloud]]></title>
+    <url>%2F2018%2F01%2F01%2FSpringCloud%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>SpringCloud</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SpringMVC]]></title>
+    <url>%2F2018%2F01%2F01%2FSpringMVC%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>SpringMVC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SpringBoot]]></title>
+    <url>%2F2018%2F01%2F01%2FSpringBoot%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>SpringBoot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Spring]]></title>
+    <url>%2F2018%2F01%2F01%2FSpring%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Spring</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git]]></title>
+    <url>%2F2018%2F01%2F01%2FGit%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Shiro]]></title>
+    <url>%2F2018%2F01%2F01%2FShiro%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Shiro</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Servlet]]></title>
+    <url>%2F2018%2F01%2F01%2FServlet%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Servlet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[EL & JSTL]]></title>
+    <url>%2F2018%2F01%2F01%2FEL%20%26%20JSTL%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>EL &amp; JSTL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[SVN]]></title>
+    <url>%2F2018%2F01%2F01%2FSVN%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>SVN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Oracle]]></title>
+    <url>%2F2018%2F01%2F01%2FOracle%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>Oracle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JQuery]]></title>
+    <url>%2F2018%2F01%2F01%2FJQuery%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Web基础</category>
+      </categories>
+      <tags>
+        <tag>JQuery</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Http协议]]></title>
+    <url>%2F2018%2F01%2F01%2FHttp%E5%8D%8F%E8%AE%AE%2F</url>
+    <content type="text"><![CDATA[什么是http协议http请求http响应]]></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Http</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hibernate]]></title>
+    <url>%2F2018%2F01%2F01%2FHibernate%2F</url>
+    <content type="text"><![CDATA[Hibernate概述]]></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Hibernate</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Bootstrap]]></title>
+    <url>%2F2018%2F01%2F01%2FBootstrap%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Bootstrap</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Request & Response]]></title>
+    <url>%2F2018%2F01%2F01%2FRequest%20%26%20Response%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Request &amp; Response</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linus]]></title>
+    <url>%2F2018%2F01%2F01%2FLinus%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>CS</category>
+      </categories>
+      <tags>
+        <tag>Linus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JUnit]]></title>
+    <url>%2F2018%2F01%2F01%2FJUnit%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>JUnit</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mybatis]]></title>
+    <url>%2F2018%2F01%2F01%2FMybatis%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaWeb</category>
+      </categories>
+      <tags>
+        <tag>Mybatis</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Maven]]></title>
+    <url>%2F2018%2F01%2F01%2FMaven%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>Maven</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JavaScript]]></title>
+    <url>%2F2016%2F08%2F13%2FJavaScript%2F</url>
+    <content type="text"><![CDATA[JavaScript基础]]></content>
+      <categories>
+        <category>Web基础</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CSS]]></title>
+    <url>%2F2016%2F08%2F07%2FCSS%2F</url>
+    <content type="text"><![CDATA[CSS CSS基础语法规范：选择器{属性名1:属性值1；属性名2:属性值2；属性名3:属性值3；} 五大CSS选择器:元素选择器所有div，类选择器div class分类多个，id选择器div id，单个层级选择器div+p p在div里面 属性选择器： CSS导入方式：css代码在哪？三种内部引入：直接head里边：多个方便行内引入：对单个 就近原则外部引入：新建css文件，直接写css文件，引入link css浮动 float left。right属性 定位 边框 背景 文本 css盒子模型 仿xx网页]]></content>
+      <categories>
+        <category>Web基础</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML]]></title>
+    <url>%2F2016%2F08%2F07%2FHTML%2F</url>
+    <content type="text"><![CDATA[&emsp;&emsp;Web前端网页分成三个层次：结构层HTML(网页内容的载体,通过标签描述内容含义)、表示层CSS(层叠样式表,如何显示有关内容)、行为层JavaScript(用来实现网页上的特效效果) HTML简介 HTML（HyperTextMarkup Language），超文本标记语言；一个HTML文档通常由四个部分组成： 文档说明&lt;!DOCTYPE HTML&gt;：最顶部一行，声明告诉浏览器, 页面使用何种标记语言编写, 这会影响到浏览器渲染内容的方式 根标签html：整个网页是从&lt;html&gt;这里开始的，然后到&lt;/html&gt;结束 head标签：文档的头部描述了文档的各种属性和信息，头部元素主要有&lt;title&gt;,&lt;script&gt;,&lt;style&gt;,&lt;link&gt;,&lt;meta&gt; body标签：页面主体12345678910111213141516&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;&lt;html&gt; &lt;head&gt; &lt;title&gt; 网页标题 &lt;/title&gt; &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" &gt; &lt;link rel="stylesheet" type="text/css" href="mycss.css" &gt; &lt;script type="text/javascript" src="myjs.js"&gt;&lt;/script&gt; &lt;/head&gt; &lt;body&gt; &lt;p&gt;这是一个段落&lt;/p&gt; &lt;/body&gt;&lt;/html&gt;&lt;!--以上html文档告诉浏览器，遵循W3C标准XHTML4.0版本规范（文件类型声明），采用编码utf-8,标题是“网页标题”，描述的样式表是同目录的mycss.css文件，有关的javascript代码在同级的myks.js文件中，内容是有一个段落，段落的内容是“这是一个段落”。 --&gt; 字体标签：标签总是成对出现 12 title：网页标题meta：常用于定义页面的说明，关键字，最后修改日期，和其它的元数据。这些元数据将服务于浏览器（如何布局或重载页面），搜索引擎和其它网络服务； style：为HTML文档定义样式信息；必须属性type，值text/css 表单元素 HTML运行原理：]]></content>
+      <categories>
+        <category>Web基础</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[MySQL]]></title>
+    <url>%2F2016%2F07%2F31%2FMySQL%2F</url>
+    <content type="text"><![CDATA[数据库概述 数据库 关系型数据库管理系统 常见数据库 mysql Oracle sqlserver。。 表、字段、记录、主键。。 Mysql安装 验证MSI方式 ZIP免安装方式–麻烦点 SQL语句]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（十五）--数据库编程JDBC]]></title>
+    <url>%2F2016%2F07%2F16%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%8D%81%E4%BA%94%EF%BC%89--%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BC%96%E7%A8%8BJDBC%2F</url>
+    <content type="text"><![CDATA[jdbc 介绍 统一的编程接口jdbc访问数据库流程事务]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（十四）--网络编程]]></title>
+    <url>%2F2016%2F07%2F09%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%8D%81%E5%9B%9B%EF%BC%89--%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[网络基础概念 IP地址：为了能够方便的识别网络上的每个设备，网络中的每个设备都会有一个唯一的数字标识，这个就是IP地址；根据现有IPv4协议（32位）规定每个IP地址由4个0-255之间的数字组成，例如10.0.120.34域名：IP地址不方便记忆，一个IP地址可以对应多个域名，一个域名只能对应一个IP地址，在网络中传输的数据，全部是以IP地址作为地址标识，所以在实际传输数据以前需要将域名转换为IP地址，实现这种功能的服务器称之为DNS服务器，也就是通俗的说法叫做域名解析。例如当用户在浏览器输入域名时，浏览器首先请求DNS服务器，将域名转换为IP地址，然后将转换后的IP地址反馈给浏览器，然后再进行实际的数据传输端口：一个计算机可以同时运行多个网络程序，给每个程序分配唯一的端口，通过IP地址+端口号传输数据，不会互相之间产生干扰；端口的号码必须位于0-65535之间（2个字节，16位），每个端口唯一的对应一个网络程序，一个网络程序可以使用多个端口；统一资源定位符：URL URI URL 四部分组成 协议+域名+端口+资源 TCP/UDP协议TCP：打电话 三次握手 面向连接 安全可靠 效率相对地下UDP：短信 四次握手 非面向连接 效率高 通信协议分层 OSI模型 TCP/IP模型IP协议。。。网络爬虫原理数据封装–拆分 InetAddress &amp; InetSocketAddress 封装IP地址与DNS InetSocketAddress 封装IP地址+端口 12 URLTCP SocketServerSOcket Socket UDP SocketDatagramSocket DaragramPacket 底层还是IO]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（十三）--IO流]]></title>
+    <url>%2F2016%2F06%2F26%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%8D%81%E4%B8%89%EF%BC%89--IO%E6%B5%81%2F</url>
+    <content type="text"><![CDATA[File类IO流原理与概念###]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（十二）--多线程]]></title>
+    <url>%2F2016%2F06%2F18%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%8D%81%E4%BA%8C%EF%BC%89--%E5%A4%9A%E7%BA%BF%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[认识多线程 进程与线程 如何实现多线程？ 线程生命周期 同步与死锁生产者-消费者]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（十）--反射]]></title>
+    <url>%2F2016%2F06%2F05%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%8D%81%EF%BC%89--%E5%8F%8D%E5%B0%84%2F</url>
+    <content type="text"><![CDATA[什么是反射？]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（十一）--GUI图形编程]]></title>
+    <url>%2F2016%2F06%2F05%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%8D%81%E4%B8%80%EF%BC%89--GUI%E5%9B%BE%E5%BD%A2%E7%BC%96%E7%A8%8B%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（九）--集合]]></title>
+    <url>%2F2016%2F06%2F04%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B9%9D%EF%BC%89--%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[为啥不用数组collection 一个一个 set无序不可重复 list有序可重复map key-value对 迭代器增强for循环]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（八）--泛型]]></title>
+    <url>%2F2016%2F05%2F28%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%85%AB%EF%BC%89--%E6%B3%9B%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[泛型基础 为什么引入泛型 装入数据的类型都被当作Object对待，从来丢失自己实际类型，获取数据时需要强制转型 将类型转换时的类型检查从运行时提前到了编译时，具有更好的可读性和安全性 代码可以被不同类型的对象重用1234567891011121314151617import java.util.ArrayList;public class GenericTest &#123; public static void main(String[] args) &#123; ArrayList arraylist = new ArrayList(); //定义ArrayList集合 //ArrayList&lt;String&gt; arraylist = new ArrayList&lt;String&gt;(); arraylist.add("11"); //存入字符串类型 arraylist.add("22"); //arraylist.add(33); 使用泛型编译期类型检查 for (int i = 0; i &lt; arraylist.size(); i++) &#123; /*存入数据均作为Object看待，取出必须强制转换 33无法输出，Interger对象无法直接转换为String，需要调用toString方法 使用泛型则不需要强制转换 */ String name = (String) arraylist.get(i); System.out.println("name:" + name); &#125; &#125;&#125; 泛型类：实例化类的时候指明泛型的具体类型 12 泛型方法：调用方法的时候指明泛型的具体类型 泛型接口 泛型限定 extends super泛型擦除约束与局限性泛型类型的继承规则通配符]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（七）--Java常用类]]></title>
+    <url>%2F2016%2F05%2F22%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%83%EF%BC%89--Java%E5%B8%B8%E7%94%A8%E7%B1%BB%2F</url>
+    <content type="text"><![CDATA[包装类 为什么要有包装类？ Java语言是一个面向对象的语言，但是Java中的基本数据类型却是不面向对象的 集合需要 自动装箱 &amp; 自动拆箱（编译器） 自动装箱：基本类型自动转为包装类（int &gt;&gt; Integer） 自动拆箱：包装类自动转为基本类型（Integer &gt;&gt; int）1234567public class TestInteger &#123; public static void main(String[] args) &#123; Integer i = new Integer(100); //Java5.0之前必须new生成一个Integer对象 Integer j = 100; //自动装箱，调用Integer.valueOf()方法实现，效率更高 int m = j; //自动拆箱，调用Integer.intValue()方法实现 &#125;&#125; 缓存机制cache 1234567891011121314151617181920212223242526272829303132333435public class TestVlaueOf &#123; public static void main(String[] args) &#123; Integer i1 = 100; //Integer、Short、Byte、Character、Long类似 Integer i2 = 100; Integer i3 = 200; Integer i4 = 200; System.out.println(i1==i2); //true System.out.println(i3==i4); //false System.out.println(i1.equals(i2)); //true System.out.println(i3.equals(i4)); //true /*通过valueOf方法创建Integer对象的时候，如果数值在 [-128,127] 之间，便返回指向 IntegerCache.cache中已经存在的对象的引用；否则创建一个新的Integer对象 public static Integer valueOf(int i) &#123; if(i &gt;= -128 &amp;&amp; i &lt;= IntegerCache.high) return IntegerCache.cache[i + 128]; else return new Integer(i); &#125; */ Double j1 = 100.0; Double j2 = 100.0; Double j3 = 200.0; Double j4 = 200.0; System.out.println(j1==j2); //false System.out.println(j3==j4); //false Boolean k1 = false; Boolean k2 = false; Boolean k3 = true; Boolean k4 = true; System.out.println(k1==k2); //true System.out.println(k3==k4); //true &#125;&#125; String String类简介 String类常用方法 String、StringBuilder &amp; StringBuffer区别 日期处理：date。calendar Date Calendar Math &amp; RandomSystemscanner]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（六）--异常]]></title>
+    <url>%2F2016%2F05%2F15%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%85%AD%EF%BC%89--%E5%BC%82%E5%B8%B8%2F</url>
+    <content type="text"><![CDATA[异常 异常概念异常(exception)是运行期发生的事件，如果不对异常进行正确处理，可能导致程序的中断执行或外部环境影响造成用户数据丢失，所以在程序设计过程中必须考虑各种异常的发生，并正确处理，保证程序正确执行； 运行期：指java.exe，即程序执行过程;javac.exe编译时不产生对象，只检查语法错误123456789101112131415public class ExceptionDemo01 &#123; public static void main(String[] args) &#123; int[] arr = &#123;1,2,3&#125;; System.out.println(2/0); System.out.println(arr[3]); &#125;&#125;/* javac编译不会报错,java执行期间报除数为0错误： Exception in thread "main" java.lang.ArithmeticException: / by zero at ExceptionDemo01.main(ExceptionDemo01.java:4) 此程序只报错以上一个错误，原因：如果发生异常不去处理(try,catch),程序运行 终止; 若执行System.out.println(arr[3]);发生数组下标越界错误: Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3 at ExceptionDemo01.main(ExceptionDemo01.java:5) */ 异常分类： Error：无法控制，罕见 Exception：所有异常类的父类，其子类对应了各种各样可能出现的异常事件 RuntimeException： 处理异常try catch finally打印异常信息printstacktrace 如何抛出异常 throw &amp; throws 自定义异常： 断言 概念： 启用与禁用断言： 什么时候选择使用断言： 日志]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（四）--包、枚举 & 注解]]></title>
+    <url>%2F2016%2F05%2F14%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E5%9B%9B%EF%BC%89--%E5%8C%85%E3%80%81%E6%9E%9A%E4%B8%BE%20%26%20%E6%B3%A8%E8%A7%A3%2F</url>
+    <content type="text"><![CDATA[包 包（package）的作用：包是Java语言提供的一种区别类名字命名空间的机制，它是类的一种文件组织和管理方式、是一组功能相似或相关的类或接口的集合 使用包的主要原因是确保类名的唯一性，把功能相似或相关的类或接口组织在同一个包中，方便类的查找和使用 类比文件夹，同一个包中的类名是不同的，不同的包中的类的名字可以相同，当同时调用两个不同包中相同类名的类时，应该加上（import）包名加以区别 包名通常采用小写、按倒写互联网址的形式进行定义(com.sun.java表示包文件放置路径为com/sun/java)，进而划分为子包… 包的导入 包的作用域 jar命令 系统常用包枚举 注解Annotation]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（五）--接口、Lambda表达式与内部类]]></title>
+    <url>%2F2016%2F05%2F14%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%94%EF%BC%89--%E6%8E%A5%E5%8F%A3%E3%80%81Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E5%86%85%E9%83%A8%E7%B1%BB%2F</url>
+    <content type="text"><![CDATA[接口 接口概念 好处是一种规范，不给实现 分离 定义java单继承，通过继承可以实现多继承 12345678//接口不是类，不能用new实例化一个接口 X = new Test; errorpublic interface Test &#123; //接口不能包含实例域，但可以定义常量，默认public static final，省略 int id = 10; /*接口中的方法自动属于public，可省略关键字public 接口中的方法均为抽象方法，省略abstract */ void Method01();&#125; 接口的实现 implements 一个类可以实现多个接口：Teacher类实现了Singer、Painter接口 多个无关的类可以实现同一个接口：Student类、Teacher类都实现了Singer接口 多态1234567891011121314151617181920212223242526272829303132333435363738394041424344454647interface Painter &#123; //Painter接口 void eat(); //两个抽象方法 void paint();&#125;interface Singer &#123; //Singer接口 void sing(); //两个抽象方法 void sleep();&#125;class Student implements Singer &#123; public void sing() &#123; //实现接口中的sing方法 System.out.println("Student is singing;"); &#125; public void sleep() &#123; //实现接口中的sleep方法 System.out.println("Student is sleeping;"); &#125;&#125;class Teacher implements Singer,Painter &#123; public void eat() &#123; System.out.println("Teacher is eating;"); &#125; public void paint() &#123; System.out.println("Teacher is painting;"); &#125; public void sing() &#123; System.out.println("Teacher is singing;"); &#125; public void sleep() &#123; System.out.println("Teacher is sleeping;"); &#125;&#125;public class InterfaceTest &#123; public static void main(String[] args) &#123; Singer s1 = new Student(); s1.sing(); s1.sleep(); Singer s2 = new Teacher(); s2.sing(); s2.sleep(); Painter p1 = (Painter)s2; p1.eat(); p1.paint(); &#125;&#125; 画内存图 接口与抽象类 Lambda表达式内部类 内部类：定义在另一个类中的类；为什么使用内部类？ 内部类中的方法可以访问外部类的所有成员属性和方法，包括私有数据 内部类可以对同一个包中的其他类隐藏起来 当想要定义一个回调函数且不想编写代码时，使用匿名内部类更加便捷 成员内部类:最普通的内部类，与外部类的成员变量和方法并列，相当于外部类的一个成员，外部类要访问内部类的成员属性和方法则需要通过构造内部类实例来访问 1234567891011121314151617181920212223242526/*在编译时，编译器将内部类翻译成用$分隔外部类与内部类名的常规类文件（两个.class文件： OuterClass.class、OuterClass$InnerClass），内部类的对象总有一个隐式引用， 它指向了创建它的外部类对象 */public class OuterClass &#123; private String str; //外部类私有属性 public void outerInfo() &#123; System.out.println("outerClass"); &#125; public class InnerClass &#123; //内部类 public void innerInfo() &#123; str = "Litsao"; //内部类直接调用外部类私有属性 System.out.println(str); outerInfo(); //内部类直接调用外部类方法 &#125; &#125; public static void main(String[] args) &#123; //外部类实例化：外部类 对象1 = new 外部类（）; OuterClass outer = new OuterClass(); /*成员内部类是依附于外部类的，所以只有先创建了外部类才能够创建内部类 *内部类实例化：外部类.内部类 对象2 = 对象1.new 内部类(); */ OuterClass.InnerClass inner = outer.new InnerClass(); inner.innerInfo(); //构造内部类实例后才能访问内部类的成员变量/方法 &#125;&#125; 局部内部类：内部类定义在外部类的方法中，内部类的作用域只在方法内部 1234567891011121314151617181920212223242526272829303132public class LocalInnerClass &#123; public static void main(String[] args)&#123; Outer outer = new Outer(); //外部类对象通过其方法调用内部类，方法结束局部内部类的对象也就释放了 outer.showOuter(); &#125;&#125;class Outer &#123; private int num1 = 10; private static int num2 = 20; public void showOuter()&#123; final int num3 = 50; //局部内部类不是类成员，放在方法内部，前面不能有修饰符 class Inner &#123; private int num1 = 20; private int num2 = 30; public void showInner() &#123; System.out.println("内部类num1：" + num1); //20,打印内部类的num1、num2 System.out.println("内部类num2：" + num2); //30 //局部内部类访问外部类成员：外部类.this.成员 System.out.println("外部类num1" + Outer.this.num1); //10,打印外部类的num1 System.out.println("外部类静态变量：" + num2); //局部内部类访问作用域内的局部变量，该局部变量需要使用final修饰 System.out.println("作用域内局部变量：" + num3); &#125; &#125; //局部内部类的对象需在内部类编译后再创建 //局部内部类对于外界是隐藏的，因此需要在内部类里面完成对象的定义和引用 Inner inner=new Inner(); inner.showInner(); &#125;&#125; 匿名内部类：特殊的局部内部类，没有名字，只使用一次 12 静态内部类：使用static修饰的内部类（嵌套内部类）非静态内部类不能包含static成员？ 12]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（三）--封装、继承 & 多态]]></title>
+    <url>%2F2016%2F05%2F08%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89--%E5%B0%81%E8%A3%85%E3%80%81%E7%BB%A7%E6%89%BF%20%26%20%E5%A4%9A%E6%80%81%2F</url>
+    <content type="text"><![CDATA[封装 封装：将类的某些信息隐藏在类的内部，不允许外部程序直接访问，而是通过该类提供的方法来实现对隐藏信息的操作和访问 隐藏实际细节，提供公共的访问方式，提高了代码复用性、安全性 可以对封装的变量进行属性检测12345678910111213141516171819202122232425262728293031//此处仅封装了属性，同样可以利用private实现私有方法（后面介绍：封装构造方法&lt;单例模式&gt;）class Employee &#123; private String name; //封装属性，只需要加上访问控制符private private double salary; public String getName() &#123; //提供getter/setter方法供外部访问 return name; &#125; public void setName(String n) &#123; name = n; &#125; public double getSalary() &#123; return salary; &#125; public void setSalary(double s) &#123; if(s &gt;= 0) &#123; //检测输入的s salary = s; &#125; &#125; public void info() &#123; System.out.println("姓名：" + getName() + "；薪资：" + getSalary()); &#125;&#125;public class EncapsulationTest &#123; public static void main(String[] args) &#123; Employee emp = new Employee(); //emp.name = "张三"; //name私有，只能通过setName设置 emp.setName("张三"); emp.setSalary(-1000); //加入检测功能，负数不满足条件，salary为默认值 emp.info(); &#125;&#125; this关键字 非构造方法中，用来表示当前对象，调用成员变量/方法或返回自身 构造方法中，用来调用另一个构造方法，必须放在方法首行12345678910111213141516171819202122232425262728293031323334353637383940414243444546class Employee &#123; private String name; private double salary; public Employee(String name) &#123; this("张三",25); //this调用构造方法，必须放在方法首行！ this.name = name; &#125; public Employee(String name,double salary) &#123; this.name = name; this.salary = salary; &#125; public String getName() &#123; return name; &#125; //public void setName(String n) &#123; //n表示参数意义不明确 // name = n; //&#125; //public void setName(String name) &#123; //局部变量与成员变量重名，方法内部优先使用局部变量，程序错误 // name = name; //&#125; public void setName(String name) &#123; //形参name值传递给当前对象.成员变量 this.name = name; //用this关键字表示当前对象或当前类的一个实例，用this调用对象的所有方法和属性 &#125; public double getSalary() &#123; return salary; &#125; public void setSalary(double s) &#123; salary = s; &#125; public void info() &#123; System.out.println("姓名：" + getName() + "；薪资：" + getSalary()); &#125; public Employee returnthis() &#123; //返回Employee类 return this; //return this返回当前对象 &#125;&#125;public class ThisTest &#123; public static void main(String[] args) &#123; Employee emp = new Employee("张三"); //构造方法对实例域初始化（张三），后面更改要用set emp.setName("李四"); //emp.setSalary(20); emp.info(); //姓名：李四；薪资：25.0 System.out.println(emp.returnthis()); //part023.Employee@70dea4e &#125;&#125; 访问修饰符：Java通过访问修饰符来限制类、属性和方法的访问权限，通常放在语句的最前端 public：共有的，对所有类可见，如果分布在不同包。需要导包 protected：受保护的，对同一包内的类和所有子类（无论在不在同一包内）可见 （默认）：同一包内可见 private: 私有的，仅本类可见 继承 继承：子类继承父类，继承除构造方法外所有属性和方法,并可以在此基础上拓展，提高代码复用性;”is-a”关系是继承的明显特征。 定义子类：关键字extends表示继承，子类比超类拥有的功能更加丰富 12345678910class Employee &#123; //定义父类Employee private String name; private double salary; getter、setter方法...&#125;class Manager extends Employee &#123; //定义子类Manager，继承自Employee private double bonus; //拓展定义bonus属性 getter、setter方法...&#125; 覆写 override 区别方法重载 123456789101112131415class Employee &#123; //定义父类Employee private String name; private double salary; getter、setter方法...&#125;class Manager extends Employee &#123; //定义子类Manager，继承自Employee private double bonus; //拓展定义bonus属性 getter、setter方法... public double getSalary() &#123; //此处覆写getsalary方法 //return salary + bonus; 报错：不能直接访问salary域 //return getSalary() + bonus; 报错：无限调用自身，直至崩溃 return super.getSalary() + bonus; //关键字super表示调用父类的getSalary()方法 &#125;&#125; 子类对象的实例化过程 隐藏super语句 this与super区别 子类并没有继承父类的构造方法，只是子类实例化对象时，会默认先调用父类的无参构造器（相当于默认super()） 如果想调用父类的其他带参构造器，需要在子类构造器首行添加super()语句！ 如果父类没有无参构造器，而子类的构造器中又没有显式调用父类的其他构造器，则编译错误 123456789101112131415class Emoloyee &#123; String name; double salary; public Emoloyee() &#123; //父类无参构造方法 System.out.println("父类Employee的无参构造方法"); &#125;&#125;class Manager extends Emoloyee &#123;&#125;public class InheritanceTest &#123; public static void main(String[] args) &#123; //对象实例化中，调用了父类的无参构造方法，是否说明子类继承了父类构造方法？ Manager m = new Manager(); //输出：父类Employee的无参构造方法 &#125;&#125; 12345678910111213141516171819202122class Emoloyee &#123; String name; double salary; public Emoloyee() &#123; //父类无参构造方法 System.out.println("父类Employee的无参构造方法"); &#125; public Employee(String name) &#123; System.out.println("父类Employee的有参构造方法"); &#125;&#125;class Manager extends Emoloyee &#123; public Manager(String name) &#123; super(name); System.out.println("子类Manager的有参构造方法");&#125;&#125;public class InheritanceTest &#123; public static void main(String[] args) &#123; //对象实例化中，调用了父类的有参构造方法和自身的有参构造方法 Manager m = new Manager("张三"); 输出：父类Employee的有参构造方法 子类Manager的有参构造方法 &#125;&#125; super关键字： 继承层次：继承可以多层继承,比如C继承自B，B继承自A;但不允许多继承,即C既继承A,也继承B;关于Java多继承的实现方式，参考接口内容。 final 强制类型转换 抽象类： Object：所有类的超类 Object：Object类是Java中所有的基类，如果在类的声明中未使用extends关键字指明其基类，则默认基类为Object类; 1234567public class Person&#123; ...&#125; 等价于public class Person extends Object &#123; ...&#125; equals方法 深入==与equals hashCode方法 toString方法 多态 对象转型（具有继承关系） 向上转型：子类对象转换为父类对象（Employee-&gt;Manager） 向下转型：父类对象转换为子类对象（Manager-&gt;Employee）12 动态绑定与多态]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（二）--类与对象]]></title>
+    <url>%2F2016%2F05%2F03%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%8C%EF%BC%89--%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1%2F</url>
+    <content type="text"><![CDATA[面向对象(OOP)概述 面向过程：分析出解决问题所需要的步骤 面向对象：Java是完全面向对象的语言，Java程序是由对象组成的，每个对象包含对用户公开的特定功能部分和隐藏的实现部分；只要对象能够满足要求，不关心其功能的具体实现 三大特性：封装、继承、多态 区别：举例 什么是类与对象？ 类与对象：类是对象的模板，对象是类的一个个体（实例） 类：对某一类事物的描述，抽象的、概念上的定义 对象：实际存在的该类事物的个体，也称为实例 类之间的关系： 依赖：uses-a，一个类的方法操纵另一个类的对象，应尽量降低类之间的耦合 聚合：has-a，类A的对象包含类B的对象 继承：is-a，特性与共性 定义类 &amp; 对象12345678910111213141516class Employee &#123; //定义Employee类 = 属性 + 方法 String name; //定义属性(成员变量) double salary; public void info() &#123; //方法：输出name &amp; salary System.out.println("姓名：" + name + "；薪资：" + salary); &#125;&#125;//一个类定义完成，仅仅是概念上的定义，抽象的，必须产生对象public class EmployeeTest &#123; public static void main(String[] args) &#123; Employee emp = new Employee(); //创建对象并实例化 emp.name = "张三"; //访问属性：对象名称.属性 emp.salary = 6666; emp.info(); //访问方法：对象名称.方法 &#125;&#125; 构造方法 要想使用对象，必须先构造对象；在对象实例化时就会调用构造方法； 构造方法的名称必须与类名称一致； 构造方法的声明处不能有任何返回值类型的声明 不能再构造方法中使用return返回一个值 如果没有自定义构造方法，则自动生成一个构造方法public 类名(){};如果定义了一个构造方法，不管该构造方法是否有参数，都不会生成默认的构造方法。1234567891011121314151617class Employee &#123; String name; double salary; public Employee(double s) &#123; this.salary = s; System.out.println("姓名：" + name + "；薪资：" + salary); &#125;&#125;public class ConstructorTest &#123; public static void main(String[] args) &#123; System.out.println("声明对象：Employee emp = null;"); Employee emp = null; System.out.println("emp = new Employee(6666);"); emp = new Employee(6666); //实例化才调用构造方法 &#125;&#125; 构造方法重载与普通方法一样，会根据参数类型、个数、顺序不同调用不同的构造方法 12 匿名对象 成员变量 &amp; 局部变量 成员变量指的是在类里定义的变量;局部变量指的是在方法里定义的变量 成员变量可以被访问控制符及static修饰，局部变量不能被访问控制符及static修饰；两者都可以定义成final常量 成员变量存储在堆，局部变量存储在栈。局部变量的作用域仅限于定义它的方法，在该方法的外部无法访问它。成员变量的作用域在整个类内部都是可见的，所有成员方法都可以使用它。如果访问权限允许， 还可以在类的外部使用成员变量 局部变量的生存周期与方法的执行期相同：当方法执行到定义局部变量的语句时，局部变量被创建；执行到它所在的作用域的最后一条语句时，局部变量被销毁。类的成员变量，如果是实例成员变量，它和对象的生存期相同。而静态成员变量的生存期是整个程序运行期。 成员变量有默认值，基本类型的默认值为 0，复合类型的默认值为null。（被final修饰且没有static的必须显式赋值），局部变量不会自动赋值，所以局部变量在定义后先要赋初值，然后才能使用 局部变量可以和成员变量同名，且在使用时，局部变量具有更高的优先级 不推荐1234567891011121314151617181920212223242526272829303132333435363738394041class Variable &#123; //成员变量，显示初始化 public static String name01 = "类变量"; public String name02 = "实例变量"; //成员变量，未初始化，new创建实例时默认初始化 public static String name03; public String name04; public void info01( ) &#123; //定义方法 //int i; //局部变量未初始化无法打印 //System.out.println(i); int i = 10; //局部变量初始化 System.out.println(i); //10 &#125; public void info02( ) &#123; String name02 = "我不是实例变量"; //方法中定义同名成员变量 System.out.println(name02); //我不是实例变量 System.out.println(this.name02); //实例变量 &#125;&#125;public class VariableTest &#123; public static void main(String[] args) &#123; //未创建实例前，可以调用类变量，无法调用实例变量 System.out.println(Variable.name01); //类变量 Variable var = new Variable(); //实例化后，可以调用实例变量 System.out.println(var.name02); //实例变量 //成员变量未初始化，会默认初始化 System.out.println(Variable.name03); //null System.out.println(var.name04); //null //实例化后的对象可以调用类变量，会有警告！不推荐！ System.out.println(var.name01); //实例对象可以改变类变量值，不推荐！ var.name01 = "实例对象改变了类变量"; System.out.println(var.name01); var.info01(); //10 //System.out.println(i); 定义在方法中的局部变量i出了方法无法访问 //方法中的局部变量可以与局部变量同名，且优先调用 var.info02(); &#125;&#125; Java传递机制：值传递 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104/* * 在这里需要对Java的传递机制进行了解： * Java总是采用“按值传递” * * 一些概念： * 值传递：函数在调用的时候，传递的参数不是实参本身，而是它的副本（拷贝） * 引用传递：函数在调用的时候，传递的参数就是实参本身（的地址） */public class ParamTest &#123; public static void main(String[] args) &#123; /* * 第一个测试， * 调用的tripleValue方法不能够修改原先的数值 */ System.out.println("Testing tripleValue:"); double percent = 10; System.out.println("Before: percent = " + percent); tripleValue(percent); System.out.println("After: percent = " + percent); /* * 第二个测试， * 调用的tripleSalary方法成功的改变了对象。 * 你可能会奇怪了： * Java明明是按值传递，为什么能够改变原来的对象呢？ * 其实是因为这样的： * Java中，对象（类的实例）都是通过引用来访问的， * 比如： * Object foo = new Object(); * foo只是一个引用，指向了新创建的这个Object对象 * 所以你在这里调用tripleSalary的时候， * 传进去的harry参数本身就是一个引用了， * 调用的方法对其进行拷贝， * 得到的临时变量依然是与harry相同的引用， * 所以自然就可以修改这个对象的状态了， * * 详细的说明可以参考这个网址： * http://zhi.hu/MBSN * 也可以参阅《Core Java Volume I》第122页 */ System.out.println("\nTesting tripleSalary:"); Employee harry = new Employee("Harrt", 50000); System.out.println("Before: salary = " + harry.getSalary()); tripleSalary(harry); System.out.println("After: salary = " + harry.getSalary()); /* * 第三个测试， * 调用的swap方法并不能交换两个对象： * 因为swap内部交换的是其拷贝过来的临时的对象， * 而不是实际的对象 */ System.out.println("\nTesting swap:"); Employee a = new Employee("Alice", 70000); Employee b = new Employee("Bob", 60000); System.out.println("Before: a = " + a.getName()); System.out.println("Before: b = " + b.getName()); swap(a, b); System.out.println("After: a = " + a.getName()); System.out.println("After: b = " + b.getName()); &#125; public static void tripleValue(double x) &#123; x = 3 * x; System.out.println("End of method: x = " + x); &#125; public static void tripleSalary(Employee x) &#123; x.raiseSalary(200); System.out.println("End of method: salary = " + x.getSalary()); &#125; public static void swap(Employee x, Employee y) &#123; Employee temp = x; x = y; y = temp; System.out.println("End of method: x = " + x.getName()); System.out.println("End of method: y = " + y.getName()); &#125;&#125;class Employee &#123; private String name; private double salary; public Employee(String n, double s) &#123; name = n; salary = s; &#125; public String getName() &#123; return name; &#125; public double getSalary() &#123; return salary; &#125; public void raiseSalary(double byPercent) &#123; double raise = salary * byPercent / 100; salary += raise; &#125;&#125; static关键字 静态域 &amp; 静态方法123456789101112131415161718192021222324252627282930/*staic修饰的变量/方法存储在方法区，被所有的对象所共享，它当且仅当在类初次加载时会被初始化。 而非静态变量/方法是对象所拥有的，在创建对象的时候被初始化，各个对象之间互不影响。*/ //所有对象都可以调用static公共属性，最好使用类.静态变量/方法来修改 public class Person &#123; String name; //成员变量 int age; static String country; //static修饰的成员变量称为类变量/静态变量 public void info() &#123; System.out.println("name:" + name +",age:" + age +",Country:" + country); Person.printInfo(); //非静态方法中可以调用静态变量/方法 &#125; public static void printInfo() &#123; //静态方法 //System.out.println("name:" + name + ",Country:" + country); 静态方法不能调用非静态属性/方法 System.out.println("Country:" + country); &#125; public static void main(String[] args) &#123; Person.country = "China"; //静态变量无需创建对象访问 Person.printInfo(); Person per1 = new Person(); per1.name = "张三"; per1.age = 20; per1.info(); Person per2 = new Person(); per2.name = "李四"; per2.age = 22; per2.info(); &#125; &#125; 静态代码块 123456789101112131415161718192021222324252627282930class Book &#123; public Book(String msg) &#123; System.out.println(msg); &#125;&#125;public class Person01 &#123; Book book1 = new Book("book1成员变量初始化"); static Book book2 = new Book("static成员book2成员变量初始化"); Book book3 = new Book("book3成员变量初始化"); static Book book4 = new Book("static成员book4成员变量初始化"); public Person01(String msg) &#123; //构造方法 System.out.println(msg); &#125; public static void funStatic() &#123; //static修饰的静态方法 System.out.println("static修饰的funStatic方法"); &#125; public static void main(String[] args) &#123; Person01.funStatic(); //未创建对象前，通过调用类的静态方法，类的静态变量初始化 Person01 p1 = new Person01("p1初始化"); //静态变量初始化后，new对象不会再次初始化 &#125;&#125;/*static成员book2成员变量初始化 static成员book4成员变量初始化 static修饰的funStatic方法 book1成员变量初始化 book3成员变量初始化 p1初始化 */ 理解main方法 代码块普通、构造、静态、同步]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Core Java学习笔记（一）--Java程序设计基础]]></title>
+    <url>%2F2016%2F05%2F02%2FCore%20Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89--Java%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9F%BA%E7%A1%80%2F</url>
+    <content type="text"><![CDATA[Java概述 发展简史：Sun–&gt;Oracle，Java1.0–&gt;…Java1.4–&gt;Java5.0(重大更新)…–&gt;Java9.0 技术分支：JavaSE（基础）、JavaEE（企业应用、Web开发）、JavaME（嵌入式、安卓） 语言特点：简单性、面向对象、分布式、健壮性、安全性、体系结构中立、可移植、解释型、高性能、多线程、动态性 运行机制：HelloWorld.java–&gt;javac.exe编译–&gt;HelloWorld.class(与平台无关的字节码，二进制)–&gt;java.exe解释执行(jvm)–&gt;特定平台机器码12345public class HelloWorld &#123; public static void main(String[] args) &#123; System.out.println("Hello World"); &#125;&#125; Java开发环境搭建 JDK：Java Development Kit，Java开发工具包，面向开发人员，包括了Java运行环境JRE、Java工具和Java基础类库JRE：Java Runtime Environment，Java运行时环境，面向用户，包含JVM标准实现及Java核心类库JVM：Java Virtual Machine，Java虚拟机，是整个java实现跨平台的最核心的部分，.class文件交由JVM解释执行 从Oracle官网下载JDK，进行环境变量配置：计算机–&gt;属性–&gt;高级系统设置–&gt;环境变量，最后javac验证JAVA_HOME:新建系统变量，指JDK的安装路径，如D:\JDKPath:计算机存在Path变量，指命令搜索路径，如%JAVA_HOME%\binCLASSPATH（Java5.0后无需配置）:新建系统变量，指类搜索路径，如.;D:\JDK\lib 常用DOS命令：cd,cd..,md,rd,dir,cls,del等 注释、标识符、关键字 注释：注释不会出现在可执行程序中，Java有三种标记注释的方式 123// 单行注释/* 多行注释 *///* 文档注释 */ 标识符：Java中的包、类、方法、参数和变量名字，可由大小写字母、数字、下划线和美元符号组成，但不能以数字开头，不能使用Java中的保留关键字表示类名的标识符用大写字母开头：HelloWorld 驼峰命名法表示方法和变量的标识符用小写字母开头，后面的描述性词以大写开始：eat(),eatFood() 关键字 数据类型 常量 &amp; 变量 123456789101112public class Variable &#123; /*关键字final定义常量（const是java保留关键字），final type VAR_NAME = value; 常量赋值之后不能更改，常量名一般全部大写 如果希望常量在一个类中的多个方法中使用，使用static final VAR_NAME设置成类常量*/ final double CM_PER_INCH = 2.54; /*Java属于强类型语言，变量必须先声明才能使用，type varName = value； 变量名必须是合法标识符；大小写敏感，长度无限制； 变量类型可以是基本数据类型，也可以是引用类型；*/ String a = "Java"; //可以在一行声明多个变量，不提倡！！逐一声明提高可读性 double b = 20.0;double c = 10.0;&#125; 数据类型 123456789101112131415161718192021222324252627282930public class TestDataType &#123; public static void main(String[] args) &#123; byte a = 11; //byte 1字节，8位，-128~127 byte a1 = 011; //数字前面加0表示8进制数 byte a2 = 0x11; //数字前面加0X/0x表示16进制数 short b = 150; //short 2字节，16位，-2^15~2^15-1 int c = 250; //int 4字节，32位，-2^31~2^31-1 long d = 9999; //8字节，63位，-2^63~2^63-1 System.out.println(Integer.toBinaryString(a)); //将a转换为2进制数 System.out.println(Integer.toOctalString(a)); //将a转换为8进制数 System.out.println(Integer.toHexString(a)); //将a转换为16进制数 float e = 3.14F; //单精度类型，4字节，尾数精确到7位有效数字，浮点数默认double，加F/f转换为float //double f = 6.82; 数值精度是float类型的两倍，双精度类型，8字节，默认double型 double f = 6.28e2; //科学计数法写法，e2，E2，e-2 //浮点数存在舍入误差，很多数字无法精确表示，精确无舍入误差计算，使用BigDecimal类 float f1 = 0.1F; double f2 = 1/10; System.out.println(f1==f2); //false，避免比较中使用浮点数 char h = &apos;陈&apos;; //2个字节，单引号用来表示字符常量，双引号表示字符串:&quot;陈&quot; int h1 = h + 2; char h2 = &apos;\&apos;&apos;; //用转义字符输出特殊字符 System.out.println(h); System.out.println(h1); System.out.println(h2); //布尔boolean型:未精确定义字节，true/false,用于判断逻辑条件；不能用0或非0代替 &#125;&#125; 数据转换容量小–&gt;容量大 自动 容量不是指字节,而是表述范围 12 运算符 1122 流程控制 条件语句 12345678910111213141516171819202122232425262728293031323334353637383940public class TestIf01 &#123; public static void main(String[] args) &#123; double i = 100 * Math.random(); int score = (int) i; if (score &gt; 90) &#123; System.out.println("优秀"); &#125; if (score &gt; 60 &amp;&amp; score &lt;= 90) &#123; System.out.println("良好"); &#125; if (score &lt; 60) &#123; System.out.println("不合格"); &#125; System.out.println("你的分数为：" + score + "分"); double r = 10 * Math.random(); double area = Math.PI * Math.pow(r, 2); double circle = 2 * Math.PI * r; System.out.println("半径为： " + r); System.out.println("面积为： " + area); System.out.println("周长为： " + circle); if(area &gt;= circle) &#123; System.out.println("面积大于等于周长"); &#125; else &#123; System.out.println("周长大于面积"); &#125; int age = (int) (100 * Math.random()); System.out.print("年龄是" + age + ", 属于"); if (age &lt; 18) &#123; System.out.println("未成年"); &#125; else if (age &lt; 60) &#123; System.out.println("中年"); &#125; else if (age &lt; 85) &#123; System.out.println("老年"); &#125; else &#123; System.out.println("寿星"); &#125; &#125;&#125; 循环语句 12 数组 数组：数组是一种数据结构，用来存储同一类型值的集合;通过一个整型下标可以访问数组中的每一个值。 数组定义： 数组的初始化：动态、静态、默认 二维 &amp; 多维数组 数组的引用传递 方法 定义:类似于函数,实现特定功能从来被反复调用的代码片段 123&#123;修饰符1 修饰符2&#125; 返回值类型 方法名(类型 参数1,类型 参数2...) &#123; 语句;&#125; 重载:一个类中存在同名但参数不同的多个方法,调用方法时会根据参数/参数个数/参数顺序同调用不同的方法 12 递归]]></content>
+      <categories>
+        <category>JavaSE</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo + Github个人博客搭建]]></title>
+    <url>%2F2016%2F04%2F23%2FHexo%20%2B%20Github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[Hexo简介与环境配置 Hexo 是一个基于Node.js的静态博客框架：Github pages存放静态文件，博客不仅包含文章内容，还有文章列表、分类、标签、翻页等动态内容，为了避免每次手动更新博文目录和相关链接信息，Hexo将这些md文件都放在本地，然后调用写好的命令来批量完成相关页面的生成，再将有改动的页面提交到Github 安装Hexo之前必须先搭建Git &amp; Node.js环境Git：https://git-scm.com/download/Node.js: https://nodejs.org/en/download/ Hexo安装：新建文件夹，比如E:\Hexo\blog，并在此文件夹下右键打开git bash命令行界面： 1234567891011安装Hexo： npm install -g hexo初始化： hexo init hexo会自动下载文件到Hexo/blog文件Hexo目录结构： |-- _config.yml 站点配置文件，包括网站名称，副标题，描述，作者，语言，主题，部署等等参数|-- package.json hexo框架的参数和所依赖插件|-- scaffolds "骨架"， hexo是根据这个目录下的文件进行构建|-- source 新建文章应保存在此文件夹下 |-- _posts |-- themes 站点主题目录|-- .gitignore |-- package.json 默认主题与更换，初始化Hexo后，分别输入以下指令： 123hexo g 生成public文件夹生成相关html文件hexo s 开启本地预览服务，浏览器访问 http://localhost:4000 ，如果打不开，可能4000端口被占用git clone https://github.com/iissnan/hexo-theme-next themes/next 更换Next主题 Hexo配置站点配置12345678910111213站点配置文件：Hexo\blog\_config.yml# Sitetitle: Litsao #网站标题subtitle: #网站副标题description: #网站描述author: #您的名字language: zh-CN #网站使用的语言timezone: #网站时区，Hexo 默认使用您电脑的时区。# Extensions## Plugins: https://hexo.io/plugins/## Themes: https://hexo.io/themes/theme: next #站点主题更改为next 主题样式12345主题配置文件themes\next\_config.yml，三种样式可选# Schemes #scheme: Mistscheme: Pisces#scheme: Gemini 菜单栏12345678910111213141516menu: home: / || home #首页，||后表示对应图标 categories: /categories/ || th #分类 tags: /tags/ || tags #标签 archives: /archives/ || archive #归档 #about: /about/ || user #关于 #schedule: /schedule/ || calendar #日程表 #sitemap: /sitemap.xml || sitemap #站点地图 #commonweal: /404/ || heartbeat #公益404 home，achieves可以自动生成菜单标签项，若新增菜单项后无法打开，需要在source文件夹 下手动新建菜单项与index.md文件 --- title: 标签 date: 2016-05-04 17:03:15 type: "tags" --- 头像12345主题配置文件themes\next\_config.yml，两种方法，直接avatar输入头像地址（使用图床）；或者将头像.jpg放入source\images文件夹下，avatar改为头像路径名# Sidebar Avataravatar: http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg#avatar: /images/头像.jpg 社交与友情链接123456789101112# Social linkssocial: GitHub: https://github.com/your-user-name Weibo: https://weibo.com/your-user-name #等等# Blog rollslinks_icon: linklinks_title: Linklinks_layout: block#links_layout: inlinelinks: Title: http://example.com RSS1npm install hexo-generator-feed --save #安装插件 本地搜索12345678npm install hexo-generator-searchdb --save #安装本地搜索插件 hexo-generator-search# Search #站点配置文件添加搜索功能 search: path: ./public/search.xml #索引文件相对于根目录的路径 field: post #搜索范围# Local search #主题配置文件开启本地搜索local_search: enable: true 博客创建/更新时间123456# Post meta display settingspost_meta: item_text: true #显示标题下信息所属条目，例如发表于XX，分类于XX.. created_at: true #是否显示创建时间 updated_at: #是否显示更新时间 enable: false 访客数量12345678busuanzi_count: #Next主题集成了不蒜子统计功能 enable: true #开启 total_visitors: false #页面底部显示站点的UV值 total_visitors_icon: user total_views: false #页面底部显示站点的PV值 total_views_icon: eye post_views: true #文章页面的标题下显示该页面的PV值（阅读数） post_views_icon: eye Blog页面宽度12345对于 Pisces Scheme，需要同时修改 header的宽度、.main-inner的宽度以及.content-wrap 的宽度（Pisces 的布局定义在 source/css/_schemes/Picses/_layout.styl 中）：header&#123; width: 90%; &#125;.container .main-inner &#123; width: 90%; &#125;.content-wrap &#123; width: calc(100% - 260px)&#125; 浏览进度12# Scroll percent label in b2t button. 右下角显示文章进度条 scrollpercent: true 设置阅读全文1文章中使用&lt;!-- more --&gt; 手动截断 打赏功能1234567reward_settings: enable: true #开启打赏功能 animation: false comment: 谢谢老板~ #感谢打赏reward: wechatpay: /images/wechatpay.png #blog\source\images放入图片.png alipay: /images/alipay.png 评论 使用Valine评论，系统放在leancloud，首先注册leancloud账号并申请一个应用，在应用设置里的安全中心设置好安全域名 主题配置文件搜索valine，开启评论功能，并填入appid与appkey12345# Valine valine: enable: true #开启valine appid: XXX # leancloud appid appkey: XXX # leancloud appkey 页脚设置12345678910footer: #站点建立时间 since: 2016powered: # Hexo link (Powered by Hexo). #取消页脚Hexo与主题版本信息 enable: false # Version info of Hexo after Hexo link (vX.X.X). version: falsetheme: enable: false version: false 绑定Github 新建一个名为用户名.github.io仓库，如果你的github用户名是test，那么就新建test.github.io的仓库（必须是你的用户名，其它名称无效） 不绑定域名也可以直接访问用户名.github.io,为了更个性一点，我们可以绑定域名。首先可以去阿里云注册个域名，]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[科学上网：搬瓦工VPS+Shadowsocks]]></title>
+    <url>%2F2016%2F04%2F10%2F%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%9A%E6%90%AC%E7%93%A6%E5%B7%A5VPS%2BShadowsocks%2F</url>
+    <content type="text"><![CDATA[购买VPS搬瓦工 vultr vir 阿里云cn2 gt cn2 gia 路由追踪以搬瓦工为例https://bandwagonhost.com/aff.php?aff=45346 安装Shadowsocksxshell 自带bbr加速 测速]]></content>
+      <categories>
+        <category>科学上网</category>
+      </categories>
+  </entry>
+</search>

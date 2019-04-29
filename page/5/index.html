@@ -1,0 +1,2989 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Cheung">
+<meta property="og:url" content="http://yoursite.com/page/5/index.html">
+<meta property="og:site_name" content="Cheung">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cheung">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Cheung" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/page/5/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Cheung</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Cheung</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/06/05/Core Java学习笔记（十）--反射/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/06/05/Core Java学习笔记（十）--反射/" class="post-title-link" itemprop="url">Core Java学习笔记（十）--反射</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-06-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-05T00:00:00+08:00">2016-06-05</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/06/05/Core Java学习笔记（十）--反射/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/06/05/Core Java学习笔记（十）--反射/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="什么是反射？"><a href="#什么是反射？" class="headerlink" title="什么是反射？"></a>什么是反射？</h3>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/06/05/Core Java学习笔记（十一）--GUI图形编程/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/06/05/Core Java学习笔记（十一）--GUI图形编程/" class="post-title-link" itemprop="url">Core Java学习笔记（十一）--GUI图形编程</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-06-05 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-05T00:00:00+08:00">2016-06-05</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/06/05/Core Java学习笔记（十一）--GUI图形编程/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/06/05/Core Java学习笔记（十一）--GUI图形编程/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/06/04/Core Java学习笔记（九）--集合/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/06/04/Core Java学习笔记（九）--集合/" class="post-title-link" itemprop="url">Core Java学习笔记（九）--集合</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-06-04 00:00:00" itemprop="dateCreated datePublished" datetime="2016-06-04T00:00:00+08:00">2016-06-04</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/06/04/Core Java学习笔记（九）--集合/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/06/04/Core Java学习笔记（九）--集合/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>为啥不用数组<br>collection 一个一个 set无序不可重复  list有序可重复<br>map   key-value对</p>
+<p>迭代器<br>增强for循环</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/28/Core Java学习笔记（八）--泛型/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/28/Core Java学习笔记（八）--泛型/" class="post-title-link" itemprop="url">Core Java学习笔记（八）--泛型</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-28 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-28T00:00:00+08:00">2016-05-28</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/28/Core Java学习笔记（八）--泛型/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/28/Core Java学习笔记（八）--泛型/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="泛型基础"><a href="#泛型基础" class="headerlink" title="泛型基础"></a>泛型基础</h3><ol>
+<li><p>为什么引入泛型</p>
+<ul>
+<li>装入数据的类型都被当作Object对待，从来丢失自己实际类型，获取数据时需要强制转型</li>
+<li>将类型转换时的类型检查从运行时提前到了编译时，具有更好的可读性和安全性</li>
+<li>代码可以被不同类型的对象重用<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">GenericTest</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        ArrayList arraylist = <span class="keyword">new</span> ArrayList();  <span class="comment">//定义ArrayList集合</span></span><br><span class="line">        <span class="comment">//ArrayList&lt;String&gt; arraylist = new ArrayList&lt;String&gt;();</span></span><br><span class="line">        arraylist.add(<span class="string">"11"</span>);  <span class="comment">//存入字符串类型</span></span><br><span class="line">        arraylist.add(<span class="string">"22"</span>);</span><br><span class="line">        <span class="comment">//arraylist.add(33);   使用泛型编译期类型检查</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; arraylist.size(); i++) &#123;</span><br><span class="line">          <span class="comment">/*存入数据均作为Object看待，取出必须强制转换  </span></span><br><span class="line"><span class="comment">            33无法输出，Interger对象无法直接转换为String，需要调用toString方法</span></span><br><span class="line"><span class="comment">            使用泛型则不需要强制转换 */</span></span><br><span class="line">            String name = (String) arraylist.get(i);          </span><br><span class="line">            System.out.println(<span class="string">"name:"</span> + name);  </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>泛型类：实例化类的时候指明泛型的具体类型</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>泛型方法：调用方法的时候指明泛型的具体类型</p>
+</li>
+<li>泛型接口</li>
+</ol>
+<h3 id="泛型限定-extends-super"><a href="#泛型限定-extends-super" class="headerlink" title="泛型限定 extends super"></a>泛型限定 extends super</h3><h3 id="泛型擦除"><a href="#泛型擦除" class="headerlink" title="泛型擦除"></a>泛型擦除</h3><h3 id="约束与局限性"><a href="#约束与局限性" class="headerlink" title="约束与局限性"></a>约束与局限性</h3><h3 id="泛型类型的继承规则"><a href="#泛型类型的继承规则" class="headerlink" title="泛型类型的继承规则"></a>泛型类型的继承规则</h3><h3 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h3>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/22/Core Java学习笔记（七）--Java常用类/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/22/Core Java学习笔记（七）--Java常用类/" class="post-title-link" itemprop="url">Core Java学习笔记（七）--Java常用类</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-22 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-22T00:00:00+08:00">2016-05-22</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/22/Core Java学习笔记（七）--Java常用类/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/22/Core Java学习笔记（七）--Java常用类/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="包装类"><a href="#包装类" class="headerlink" title="包装类"></a>包装类</h3><ol>
+<li>为什么要有包装类？<ul>
+<li>Java语言是一个面向对象的语言，但是Java中的基本数据类型却是不面向对象的  </li>
+<li>集合需要<br><img src="http://ww1.sinaimg.cn/large/b5fdace3gy1fsoobwj178j20tr0c30ta.jpg" alt></li>
+</ul>
+</li>
+<li><p>自动装箱 &amp; 自动拆箱（编译器）</p>
+<ul>
+<li>自动装箱：基本类型自动转为包装类（int &gt;&gt; Integer）</li>
+<li>自动拆箱：包装类自动转为基本类型（Integer &gt;&gt; int）<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestInteger</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Integer i = <span class="keyword">new</span> Integer(<span class="number">100</span>); <span class="comment">//Java5.0之前必须new生成一个Integer对象</span></span><br><span class="line">		Integer j = <span class="number">100</span>;  <span class="comment">//自动装箱，调用Integer.valueOf()方法实现，效率更高</span></span><br><span class="line">		<span class="keyword">int</span> m = j;	 <span class="comment">//自动拆箱，调用Integer.intValue()方法实现</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>缓存机制cache</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TestVlaueOf</span> </span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		  Integer i1 = <span class="number">100</span>; <span class="comment">//Integer、Short、Byte、Character、Long类似</span></span><br><span class="line">		  Integer i2 = <span class="number">100</span>;</span><br><span class="line">		  Integer i3 = <span class="number">200</span>;</span><br><span class="line">      Integer i4 = <span class="number">200</span>;</span><br><span class="line">      System.out.println(i1==i2);   <span class="comment">//true</span></span><br><span class="line">      System.out.println(i3==i4);   <span class="comment">//false</span></span><br><span class="line">      System.out.println(i1.equals(i2));  <span class="comment">//true</span></span><br><span class="line">      System.out.println(i3.equals(i4));   <span class="comment">//true</span></span><br><span class="line">      <span class="comment">/*通过valueOf方法创建Integer对象的时候，如果数值在 [-128,127] 之间，便返回指向</span></span><br><span class="line"><span class="comment">      IntegerCache.cache中已经存在的对象的引用；否则创建一个新的Integer对象</span></span><br><span class="line"><span class="comment">      public static Integer valueOf(int i) &#123;</span></span><br><span class="line"><span class="comment">        if(i &gt;= -128 &amp;&amp; i &lt;= IntegerCache.high)</span></span><br><span class="line"><span class="comment">            return IntegerCache.cache[i + 128];</span></span><br><span class="line"><span class="comment">        else</span></span><br><span class="line"><span class="comment">            return new Integer(i);</span></span><br><span class="line"><span class="comment">      &#125;  </span></span><br><span class="line"><span class="comment">      */</span></span><br><span class="line"></span><br><span class="line">      Double j1 = <span class="number">100.0</span>;</span><br><span class="line">      Double j2 = <span class="number">100.0</span>;</span><br><span class="line">      Double j3 = <span class="number">200.0</span>;</span><br><span class="line">      Double j4 = <span class="number">200.0</span>;</span><br><span class="line">      System.out.println(j1==j2);  <span class="comment">//false</span></span><br><span class="line">      System.out.println(j3==j4);  <span class="comment">//false</span></span><br><span class="line"></span><br><span class="line">      Boolean k1 = <span class="keyword">false</span>;</span><br><span class="line">      Boolean k2 = <span class="keyword">false</span>;</span><br><span class="line">      Boolean k3 = <span class="keyword">true</span>;</span><br><span class="line">      Boolean k4 = <span class="keyword">true</span>;     </span><br><span class="line">      System.out.println(k1==k2);  <span class="comment">//true</span></span><br><span class="line">      System.out.println(k3==k4);   <span class="comment">//true</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="String"><a href="#String" class="headerlink" title="String"></a>String</h3><ol>
+<li>String类简介</li>
+<li>String类常用方法</li>
+<li>String、StringBuilder &amp; StringBuffer区别</li>
+</ol>
+<h3 id="日期处理：date。calendar"><a href="#日期处理：date。calendar" class="headerlink" title="日期处理：date。calendar"></a>日期处理：date。calendar</h3><ol>
+<li>Date</li>
+<li>Calendar</li>
+</ol>
+<h3 id="Math-amp-Random"><a href="#Math-amp-Random" class="headerlink" title="Math &amp; Random"></a>Math &amp; Random</h3><h3 id="System"><a href="#System" class="headerlink" title="System"></a>System</h3><p>scanner</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/15/Core Java学习笔记（六）--异常/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/15/Core Java学习笔记（六）--异常/" class="post-title-link" itemprop="url">Core Java学习笔记（六）--异常</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-15 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-15T00:00:00+08:00">2016-05-15</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/15/Core Java学习笔记（六）--异常/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/15/Core Java学习笔记（六）--异常/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h3><ol>
+<li><p>异常概念<br>异常(exception)是运行期发生的事件，如果不对异常进行正确处理，可能导致程序的中断执行或外部环境影响造成用户数据丢失，所以在程序设计过程中必须考虑各种异常的发生，并正确处理，保证程序正确执行；</p>
+<ul>
+<li>运行期：指java.exe，即程序执行过程;javac.exe编译时不产生对象，只检查语法错误<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ExceptionDemo01</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span>[] arr = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">		System.out.println(<span class="number">2</span>/<span class="number">0</span>);</span><br><span class="line">		System.out.println(arr[<span class="number">3</span>]);	   </span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* javac编译不会报错,java执行期间报除数为0错误：</span></span><br><span class="line"><span class="comment">   Exception in thread "main" java.lang.ArithmeticException: / by zero</span></span><br><span class="line"><span class="comment">   at ExceptionDemo01.main(ExceptionDemo01.java:4)  </span></span><br><span class="line"><span class="comment">   此程序只报错以上一个错误，原因：如果发生异常不去处理(try,catch),程序运行</span></span><br><span class="line"><span class="comment">   终止;</span></span><br><span class="line"><span class="comment">   若执行System.out.println(arr[3]);发生数组下标越界错误:</span></span><br><span class="line"><span class="comment">   Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3</span></span><br><span class="line"><span class="comment">   at ExceptionDemo01.main(ExceptionDemo01.java:5)   */</span></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>异常分类：</p>
+<ul>
+<li>Error：无法控制，罕见   </li>
+<li>Exception：所有异常类的父类，其子类对应了各种各样可能出现的异常事件</li>
+<li>RuntimeException：<br><img src="http://upload-images.jianshu.io/upload_images/4649196-cc958513d7ed2173.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="异常分类.png"></li>
+</ul>
+</li>
+<li>处理异常try  catch  finally<br>打印异常信息printstacktrace</li>
+<li>如何抛出异常   throw &amp; throws</li>
+<li>自定义异常：</li>
+</ol>
+<h3 id="断言"><a href="#断言" class="headerlink" title="断言"></a>断言</h3><ol>
+<li>概念：</li>
+<li>启用与禁用断言：</li>
+<li>什么时候选择使用断言：</li>
+</ol>
+<h3 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h3>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/14/Core Java学习笔记（四）--包、枚举 & 注解/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/14/Core Java学习笔记（四）--包、枚举 & 注解/" class="post-title-link" itemprop="url">Core Java学习笔记（四）--包、枚举 & 注解</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-14T00:00:00+08:00">2016-05-14</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/14/Core Java学习笔记（四）--包、枚举 & 注解/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/14/Core Java学习笔记（四）--包、枚举 & 注解/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="包"><a href="#包" class="headerlink" title="包"></a>包</h3><ol>
+<li>包（package）的作用：包是Java语言提供的一种区别类名字命名空间的机制，它是类的一种文件组织和管理方式、是一组功能相似或相关的类或接口的集合</li>
+</ol>
+<ul>
+<li>使用包的主要原因是确保类名的唯一性，把功能相似或相关的类或接口组织在同一个包中，方便类的查找和使用</li>
+<li>类比文件夹，同一个包中的类名是不同的，不同的包中的类的名字可以相同，当同时调用两个不同包中相同类名的类时，应该加上（import）包名加以区别</li>
+<li>包名通常采用小写、按倒写互联网址的形式进行定义(com.sun.java表示包文件放置路径为com/sun/java)，进而划分为子包…</li>
+</ul>
+<ol start="2">
+<li>包的导入</li>
+<li>包的作用域</li>
+<li>jar命令</li>
+<li>系统常用包<h3 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h3></li>
+</ol>
+<h3 id="注解Annotation"><a href="#注解Annotation" class="headerlink" title="注解Annotation"></a>注解Annotation</h3>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/14/Core Java学习笔记（五）--接口、Lambda表达式与内部类/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/14/Core Java学习笔记（五）--接口、Lambda表达式与内部类/" class="post-title-link" itemprop="url">Core Java学习笔记（五）--接口、Lambda表达式与内部类</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-14 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-14T00:00:00+08:00">2016-05-14</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/14/Core Java学习笔记（五）--接口、Lambda表达式与内部类/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/14/Core Java学习笔记（五）--接口、Lambda表达式与内部类/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><ol>
+<li><p>接口概念 好处是一种规范，不给实现  分离    定义<br>java单继承，通过继承可以实现多继承</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//接口不是类，不能用new实例化一个接口  X = new Test; error</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">	<span class="comment">//接口不能包含实例域，但可以定义常量，默认public static final，省略</span></span><br><span class="line">	 <span class="keyword">int</span> id = <span class="number">10</span>;</span><br><span class="line">	<span class="comment">/*接口中的方法自动属于public，可省略关键字public</span></span><br><span class="line"><span class="comment">	     接口中的方法均为抽象方法，省略abstract  */</span></span><br><span class="line">	  <span class="function"><span class="keyword">void</span> <span class="title">Method01</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>接口的实现  implements</p>
+<ul>
+<li>一个类可以实现多个接口：Teacher类实现了Singer、Painter接口</li>
+<li>多个无关的类可以实现同一个接口：Student类、Teacher类都实现了Singer接口</li>
+<li>多态<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">interface</span> <span class="title">Painter</span> </span>&#123;   <span class="comment">//Painter接口</span></span><br><span class="line">	<span class="function"><span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span></span>;   <span class="comment">//两个抽象方法</span></span><br><span class="line">	<span class="function"><span class="keyword">void</span> <span class="title">paint</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">interface</span> <span class="title">Singer</span> </span>&#123;   <span class="comment">//Singer接口</span></span><br><span class="line">	<span class="function"><span class="keyword">void</span> <span class="title">sing</span><span class="params">()</span></span>;   <span class="comment">//两个抽象方法</span></span><br><span class="line">	<span class="function"><span class="keyword">void</span> <span class="title">sleep</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Student</span> <span class="keyword">implements</span> <span class="title">Singer</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sing</span><span class="params">()</span> </span>&#123;    <span class="comment">//实现接口中的sing方法</span></span><br><span class="line">		System.out.println(<span class="string">"Student is singing;"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sleep</span><span class="params">()</span> </span>&#123;   <span class="comment">//实现接口中的sleep方法</span></span><br><span class="line">		System.out.println(<span class="string">"Student is sleeping;"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Teacher</span> <span class="keyword">implements</span> <span class="title">Singer</span>,<span class="title">Painter</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">eat</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Teacher is eating;"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">paint</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Teacher is painting;"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sing</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Teacher is singing;"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sleep</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"Teacher is sleeping;"</span>);		</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">InterfaceTest</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Singer s1 = <span class="keyword">new</span> Student();</span><br><span class="line">		s1.sing();</span><br><span class="line">		s1.sleep();</span><br><span class="line">		Singer s2 = <span class="keyword">new</span> Teacher();</span><br><span class="line">		s2.sing();</span><br><span class="line">		s2.sleep();</span><br><span class="line">		Painter p1 = (Painter)s2;		</span><br><span class="line">		p1.eat();</span><br><span class="line">		p1.paint();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
+<p>画内存图</p>
+<ol start="3">
+<li>接口与抽象类</li>
+</ol>
+<h3 id="Lambda表达式"><a href="#Lambda表达式" class="headerlink" title="Lambda表达式"></a>Lambda表达式</h3><h3 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h3><ol>
+<li>内部类：定义在另一个类中的类；为什么使用内部类？<ul>
+<li>内部类中的方法可以访问外部类的所有成员属性和方法，包括私有数据</li>
+<li>内部类可以对同一个包中的其他类隐藏起来</li>
+<li>当想要定义一个回调函数且不想编写代码时，使用匿名内部类更加便捷</li>
+</ul>
+</li>
+<li><p>成员内部类:最普通的内部类，与外部类的成员变量和方法并列，相当于外部类的一个成员，外部类要访问内部类的成员属性和方法则需要通过构造内部类实例来访问</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*在编译时，编译器将内部类翻译成用$分隔外部类与内部类名的常规类文件（两个.class文件：</span></span><br><span class="line"><span class="comment">  OuterClass.class、OuterClass$InnerClass），内部类的对象总有一个隐式引用，</span></span><br><span class="line"><span class="comment">  它指向了创建它的外部类对象   */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">OuterClass</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> String str;   <span class="comment">//外部类私有属性</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">outerInfo</span><span class="params">()</span> </span>&#123;   </span><br><span class="line">		System.out.println(<span class="string">"outerClass"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">public</span>  <span class="class"><span class="keyword">class</span> <span class="title">InnerClass</span> </span>&#123;   <span class="comment">//内部类</span></span><br><span class="line">		<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">innerInfo</span><span class="params">()</span> </span>&#123;   </span><br><span class="line">			str = <span class="string">"Litsao"</span>;    <span class="comment">//内部类直接调用外部类私有属性</span></span><br><span class="line">			System.out.println(str);</span><br><span class="line">			outerInfo();   <span class="comment">//内部类直接调用外部类方法</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">    	<span class="comment">//外部类实例化：外部类 对象1 = new 外部类（）;</span></span><br><span class="line">        OuterClass outer = <span class="keyword">new</span> OuterClass();</span><br><span class="line">        <span class="comment">/*成员内部类是依附于外部类的，所以只有先创建了外部类才能够创建内部类</span></span><br><span class="line"><span class="comment">         *内部类实例化：外部类.内部类 对象2 = 对象1.new 内部类();</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        OuterClass.InnerClass inner = outer.new InnerClass();</span><br><span class="line">        inner.innerInfo();  <span class="comment">//构造内部类实例后才能访问内部类的成员变量/方法</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>局部内部类：内部类定义在外部类的方法中，内部类的作用域只在方法内部</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span>  <span class="class"><span class="keyword">class</span> <span class="title">LocalInnerClass</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">         Outer outer = <span class="keyword">new</span> Outer();</span><br><span class="line">         <span class="comment">//外部类对象通过其方法调用内部类，方法结束局部内部类的对象也就释放了</span></span><br><span class="line">         outer.showOuter();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Outer</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> num1 = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> num2 = <span class="number">20</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showOuter</span><span class="params">()</span></span>&#123;</span><br><span class="line">         <span class="keyword">final</span> <span class="keyword">int</span> num3 = <span class="number">50</span>;</span><br><span class="line">         <span class="comment">//局部内部类不是类成员，放在方法内部，前面不能有修饰符</span></span><br><span class="line">         <span class="class"><span class="keyword">class</span> <span class="title">Inner</span> </span>&#123;</span><br><span class="line">        	 <span class="keyword">private</span> <span class="keyword">int</span> num1 = <span class="number">20</span>;</span><br><span class="line">             <span class="keyword">private</span> <span class="keyword">int</span> num2 = <span class="number">30</span>;              </span><br><span class="line">             <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showInner</span><span class="params">()</span> </span>&#123;</span><br><span class="line">           	     System.out.println(<span class="string">"内部类num1："</span> + num1); <span class="comment">//20,打印内部类的num1、num2</span></span><br><span class="line">                 System.out.println(<span class="string">"内部类num2："</span> + num2); <span class="comment">//30</span></span><br><span class="line">				 <span class="comment">//局部内部类访问外部类成员：外部类.this.成员                 </span></span><br><span class="line">                 System.out.println(<span class="string">"外部类num1"</span> + Outer.<span class="keyword">this</span>.num1); <span class="comment">//10,打印外部类的num1</span></span><br><span class="line">                 System.out.println(<span class="string">"外部类静态变量："</span> + num2);</span><br><span class="line">                  <span class="comment">//局部内部类访问作用域内的局部变量，该局部变量需要使用final修饰</span></span><br><span class="line">                 System.out.println(<span class="string">"作用域内局部变量："</span> + num3);</span><br><span class="line">             &#125;</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="comment">//局部内部类的对象需在内部类编译后再创建</span></span><br><span class="line">         <span class="comment">//局部内部类对于外界是隐藏的，因此需要在内部类里面完成对象的定义和引用</span></span><br><span class="line">         Inner inner=<span class="keyword">new</span> Inner();</span><br><span class="line">         inner.showInner();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>匿名内部类：特殊的局部内部类，没有名字，只使用一次</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>静态内部类：使用static修饰的内部类（嵌套内部类）<br>非静态内部类不能包含static成员？</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/08/Core Java学习笔记（三）--封装、继承 & 多态/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/08/Core Java学习笔记（三）--封装、继承 & 多态/" class="post-title-link" itemprop="url">Core Java学习笔记（三）--封装、继承 & 多态</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-08 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-08T00:00:00+08:00">2016-05-08</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/08/Core Java学习笔记（三）--封装、继承 & 多态/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/08/Core Java学习笔记（三）--封装、继承 & 多态/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h3><ol>
+<li><p>封装：将类的某些信息隐藏在类的内部，不允许外部程序直接访问，而是通过该类提供的方法来实现对隐藏信息的操作和访问</p>
+<ul>
+<li>隐藏实际细节，提供公共的访问方式，提高了代码复用性、安全性</li>
+<li>可以对封装的变量进行属性检测<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//此处仅封装了属性，同样可以利用private实现私有方法（后面介绍：封装构造方法&lt;单例模式&gt;）</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> String name;   <span class="comment">//封装属性，只需要加上访问控制符private</span></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> salary;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;   <span class="comment">//提供getter/setter方法供外部访问</span></span><br><span class="line">		<span class="keyword">return</span> name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String n)</span> </span>&#123;</span><br><span class="line">		name = n;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getSalary</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> salary;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setSalary</span><span class="params">(<span class="keyword">double</span> s)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span>(s &gt;= <span class="number">0</span>) &#123;   <span class="comment">//检测输入的s</span></span><br><span class="line">		salary = s;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">info</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"姓名："</span> + getName() + <span class="string">"；薪资："</span> + getSalary());</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">EncapsulationTest</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Employee emp = <span class="keyword">new</span> Employee();</span><br><span class="line">		<span class="comment">//emp.name = "张三";    //name私有，只能通过setName设置</span></span><br><span class="line">		emp.setName(<span class="string">"张三"</span>);</span><br><span class="line">		emp.setSalary(-<span class="number">1000</span>);    <span class="comment">//加入检测功能，负数不满足条件，salary为默认值</span></span><br><span class="line">		emp.info();</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>this关键字</p>
+<ul>
+<li>非构造方法中，用来表示当前对象，调用成员变量/方法或返回自身</li>
+<li>构造方法中，用来调用另一个构造方法，必须放在方法首行<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;</span><br><span class="line">	<span class="keyword">private</span> String name;   </span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> salary;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Employee</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>(<span class="string">"张三"</span>,<span class="number">25</span>);  <span class="comment">//this调用构造方法，必须放在方法首行！</span></span><br><span class="line">		<span class="keyword">this</span>.name = name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Employee</span><span class="params">(String name,<span class="keyword">double</span> salary)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">this</span>.name = name;</span><br><span class="line">		<span class="keyword">this</span>.salary = salary;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;   </span><br><span class="line">		<span class="keyword">return</span> name;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//public void setName(String n) &#123;  //n表示参数意义不明确</span></span><br><span class="line">	<span class="comment">//	name = n;</span></span><br><span class="line">	<span class="comment">//&#125;</span></span><br><span class="line">	<span class="comment">//public void setName(String name) &#123;  //局部变量与成员变量重名，方法内部优先使用局部变量，程序错误</span></span><br><span class="line">	<span class="comment">//	name = name;</span></span><br><span class="line">	<span class="comment">//&#125;</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;  <span class="comment">//形参name值传递给当前对象.成员变量</span></span><br><span class="line">		<span class="keyword">this</span>.name = name;   <span class="comment">//用this关键字表示当前对象或当前类的一个实例，用this调用对象的所有方法和属性</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getSalary</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> salary;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setSalary</span><span class="params">(<span class="keyword">double</span> s)</span> </span>&#123;</span><br><span class="line">		salary = s;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">info</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"姓名："</span> + getName() + <span class="string">"；薪资："</span> + getSalary());</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> Employee <span class="title">returnthis</span><span class="params">()</span> </span>&#123;  <span class="comment">//返回Employee类</span></span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">this</span>;   <span class="comment">//return this返回当前对象</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ThisTest</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		Employee emp = <span class="keyword">new</span> Employee(<span class="string">"张三"</span>);  <span class="comment">//构造方法对实例域初始化（张三），后面更改要用set</span></span><br><span class="line">		emp.setName(<span class="string">"李四"</span>);</span><br><span class="line">		<span class="comment">//emp.setSalary(20);    </span></span><br><span class="line">		emp.info();  <span class="comment">//姓名：李四；薪资：25.0</span></span><br><span class="line">		System.out.println(emp.returnthis());  <span class="comment">//part023.Employee@70dea4e</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>访问修饰符：Java通过访问修饰符来限制类、属性和方法的访问权限，通常放在语句的最前端</p>
+<ul>
+<li>public：共有的，对所有类可见，如果分布在不同包。需要导包</li>
+<li>protected：受保护的，对同一包内的类和所有子类（无论在不在同一包内）可见</li>
+<li>（默认）：同一包内可见</li>
+<li>private: 私有的，仅本类可见<br><img src="http://ww1.sinaimg.cn/large/b5fdace3gy1fs3raevsjyj20o506j74j.jpg" alt></li>
+</ul>
+</li>
+</ol>
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><ol>
+<li>继承：子类继承父类，<strong>继承除构造方法外所有属性和方法</strong>,并可以在此基础上拓展，提高代码复用性;”is-a”关系是继承的明显特征。</li>
+<li><p>定义子类：关键字extends表示继承，子类比超类拥有的功能更加丰富</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;             <span class="comment">//定义父类Employee</span></span><br><span class="line">	<span class="keyword">private</span> String name;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> salary;</span><br><span class="line">	getter、setter方法...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> <span class="keyword">extends</span> <span class="title">Employee</span> </span>&#123;   <span class="comment">//定义子类Manager，继承自Employee</span></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> bonus;      <span class="comment">//拓展定义bonus属性</span></span><br><span class="line">	getter、setter方法...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>覆写 override    区别方法重载</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Employee</span> </span>&#123;             <span class="comment">//定义父类Employee</span></span><br><span class="line">	<span class="keyword">private</span> String name;</span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> salary;</span><br><span class="line">	getter、setter方法...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> <span class="keyword">extends</span> <span class="title">Employee</span> </span>&#123;   <span class="comment">//定义子类Manager，继承自Employee</span></span><br><span class="line">	<span class="keyword">private</span> <span class="keyword">double</span> bonus;           <span class="comment">//拓展定义bonus属性</span></span><br><span class="line">	getter、setter方法...</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">double</span> <span class="title">getSalary</span><span class="params">()</span> </span>&#123;     <span class="comment">//此处覆写getsalary方法</span></span><br><span class="line">		<span class="comment">//return salary + bonus;  报错：不能直接访问salary域</span></span><br><span class="line">		<span class="comment">//return  getSalary() + bonus;   报错：无限调用自身，直至崩溃</span></span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">super</span>.getSalary() + bonus; <span class="comment">//关键字super表示调用父类的getSalary()方法</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>子类对象的实例化过程   隐藏super语句  this与super区别</p>
+<ul>
+<li>子类并没有继承父类的构造方法，只是子类实例化对象时，会默认先调用父类的无参构造器（相当于默认super()）</li>
+<li>如果想调用父类的其他带参构造器，需要在子类构造器首行添加super()语句！</li>
+<li><p>如果父类没有无参构造器，而子类的构造器中又没有显式调用父类的其他构造器，则编译错误</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Emoloyee</span> </span>&#123;</span><br><span class="line">	String name;</span><br><span class="line">	<span class="keyword">double</span> salary;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Emoloyee</span><span class="params">()</span> </span>&#123;    <span class="comment">//父类无参构造方法</span></span><br><span class="line">		System.out.println(<span class="string">"父类Employee的无参构造方法"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> <span class="keyword">extends</span> <span class="title">Emoloyee</span> </span>&#123;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">InheritanceTest</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">	<span class="comment">//对象实例化中，调用了父类的无参构造方法，是否说明子类继承了父类构造方法？</span></span><br><span class="line">	Manager m = <span class="keyword">new</span> Manager();   <span class="comment">//输出：父类Employee的无参构造方法</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Emoloyee</span> </span>&#123;</span><br><span class="line">	String name;</span><br><span class="line">	<span class="keyword">double</span> salary;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Emoloyee</span><span class="params">()</span> </span>&#123;    <span class="comment">//父类无参构造方法</span></span><br><span class="line">		System.out.println(<span class="string">"父类Employee的无参构造方法"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Employee</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">"父类Employee的有参构造方法"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Manager</span> <span class="keyword">extends</span> <span class="title">Emoloyee</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="title">Manager</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">super</span>(name);</span><br><span class="line">	System.out.println(<span class="string">"子类Manager的有参构造方法"</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">InheritanceTest</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">	<span class="comment">//对象实例化中，调用了父类的有参构造方法和自身的有参构造方法</span></span><br><span class="line">	Manager m = <span class="keyword">new</span> Manager(<span class="string">"张三"</span>);  输出：父类Employee的有参构造方法   子类Manager的有参构造方法</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>super关键字：</p>
+</li>
+<li>继承层次：继承可以多层继承,比如C继承自B，B继承自A;但不允许多继承,即C既继承A,也继承B;关于Java多继承的实现方式，参考接口内容。</li>
+<li>final</li>
+<li>强制类型转换</li>
+<li>抽象类：</li>
+</ol>
+<h3 id="Object：所有类的超类"><a href="#Object：所有类的超类" class="headerlink" title="Object：所有类的超类"></a>Object：所有类的超类</h3><ol>
+<li><p><strong>Object：Object类是Java中所有的基类，如果在类的声明中未使用extends关键字指明其基类，则默认基类为Object类;</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span></span>&#123;</span><br><span class="line">  ...</span><br><span class="line">&#125;   </span><br><span class="line">等价于</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Person</span> <span class="keyword">extends</span> <span class="title">Object</span> </span>&#123;</span><br><span class="line">  ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>equals方法</p>
+</li>
+<li>深入==与equals</li>
+<li>hashCode方法</li>
+<li>toString方法</li>
+</ol>
+<h3 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h3><ol>
+<li>对象转型（具有继承关系）</li>
+</ol>
+<ul>
+<li>向上转型：子类对象转换为父类对象（Employee-&gt;Manager）</li>
+<li>向下转型：父类对象转换为子类对象（Manager-&gt;Employee）<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ol start="2">
+<li>动态绑定与多态</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/05/03/Core Java学习笔记（二）--类与对象/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Cheung">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2016/05/03/Core Java学习笔记（二）--类与对象/" class="post-title-link" itemprop="url">Core Java学习笔记（二）--类与对象</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-03 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-03T00:00:00+08:00">2016-05-03</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JavaSE/" itemprop="url" rel="index"><span itemprop="name">JavaSE</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2016/05/03/Core Java学习笔记（二）--类与对象/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2016/05/03/Core Java学习笔记（二）--类与对象/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h3 id="面向对象-OOP-概述"><a href="#面向对象-OOP-概述" class="headerlink" title="面向对象(OOP)概述"></a>面向对象(OOP)概述</h3><ol>
+<li>面向过程：分析出解决问题所需要的步骤</li>
+<li>面向对象：Java是完全面向对象的语言，Java程序是由对象组成的，每个对象包含对用户公开的特定功能部分和隐藏的实现部分；<strong>只要对象能够满足要求，不关心其功能的具体实现</strong>  三大特性：封装、继承、多态  </li>
+<li>区别：举例</li>
+</ol>
+<h3 id="什么是类与对象？"><a href="#什么是类与对象？" class="headerlink" title="什么是类与对象？"></a>什么是类与对象？</h3><ol>
+<li>类与对象：类是对象的模板，对象是类的一个个体（实例）<ul>
+<li>类：对某一类事物的描述，抽象的、概念上的定义</li>
+<li>对象：实际存在的该类事物的个体，也称为实例
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2016/05/03/Core Java学习笔记（二）--类与对象/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </li></ul></li></ol></div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="http://ww1.sinaimg.cn/large/b5fdace3gy1fhdfetrwxyj20ey0hgmzf.jpg" alt>
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">29</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/Litsao" title="GitHub &rarr; https://github.com/Litsao" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.facebook.com/litsao.chen.5" title="FB Page &rarr; https://www.facebook.com/litsao.chen.5" rel="noopener" target="_blank"><i class="fa fa-fw fa-facebook"></i>FB Page</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 – <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.1"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'XRlGIKoeGfgYo1LxmmlAMtNc-gzGzoHsz',
+    appKey: 'yVx4CkzhKjVbEOCTmAzlAAqc',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
+
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "./public/search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cheung</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-28T02:14:27.317Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/04/28/test/"/>
+    <id>http://yoursite.com/2019/04/28/test/</id>
+    <published>2019-04-28T00:18:44.578Z</published>
+    <updated>2019-04-28T02:14:27.317Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="TEST"><a href="#TEST" class="headerlink" title="TEST"></a>TEST</h4><p>1.</p><ol start="2"><li><img src="http://ww1.sinaimg.cn/large/b5fdace3ly1g2i1bx51o7j20bm07vt8w.jpg" alt></li><li></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;TEST&quot;&gt;&lt;a href=&quot;#TEST&quot; class=&quot;headerlink&quot; title=&quot;TEST&quot;&gt;&lt;/a&gt;TEST&lt;/h4&gt;&lt;p&gt;1.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;img src=&quot;http://ww1.sinaimg.cn/larg
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JSP</title>
+    <link href="http://yoursite.com/2018/01/01/JSP/"/>
+    <id>http://yoursite.com/2018/01/01/JSP/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:05:07.653Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="JSP" scheme="http://yoursite.com/tags/JSP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cookie &amp; Session</title>
+    <link href="http://yoursite.com/2018/01/01/Cookie%20&amp;%20Session/"/>
+    <id>http://yoursite.com/2018/01/01/Cookie &amp; Session/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:08:01.052Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="Cookie &amp; Session" scheme="http://yoursite.com/tags/Cookie-Session/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax</title>
+    <link href="http://yoursite.com/2018/01/01/Ajax/"/>
+    <id>http://yoursite.com/2018/01/01/Ajax/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:19:16.855Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="Ajax" scheme="http://yoursite.com/tags/Ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="http://yoursite.com/2018/01/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>http://yoursite.com/2018/01/01/计算机网络/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-06-27T02:46:43.995Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>计算机网络：把分布在不同区域的计算机与专门的外部设备用通信线路互连成一个规模大、<br>功能强的网络系统，从而使众多计算机可以方便的传递信息、共享硬件、软件、数据信息等资源</li><li>计算机网络的主要功能：资源共享、信息传输与集中管理<br>网络分层  5层<br>物理层<br>数据链路层<br>网络层<br>运输层<br>应用层</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ol&gt;
+&lt;li&gt;计算机网络：把分布在不同区域的计算机与专门的外部设备用通信线路互连成一个规模大、&lt;br&gt;功能强的网络系统，从而使众多计算机可以方便的传递信息、共享硬件、软件、数据信息等资源&lt;/li&gt;
+&lt;li&gt;计算机网络的主要功能：资源共享、信息传输与集中管理&lt;br&gt;网络分层  
+      
+    
+    </summary>
+    
+      <category term="CS" scheme="http://yoursite.com/categories/CS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机原理</title>
+    <link href="http://yoursite.com/2018/01/01/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86/"/>
+    <id>http://yoursite.com/2018/01/01/计算机原理/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-09-03T00:41:11.444Z</updated>
+    
+    <content type="html"><![CDATA[<p>计算机语言发展史  </p><p> 机器语言01代码-汇编语言  英文缩写助记符–面向过程/面向对象<br>解释性语言   编译型语言</p><p>jdk1.5以后不同配置classpath？</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;计算机语言发展史  &lt;/p&gt;
+&lt;p&gt; 机器语言01代码-汇编语言  英文缩写助记符–面向过程/面向对象&lt;br&gt;解释性语言   编译型语言&lt;/p&gt;
+&lt;p&gt;jdk1.5以后不同配置classpath？&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="CS" scheme="http://yoursite.com/categories/CS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统</title>
+    <link href="http://yoursite.com/2018/01/01/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://yoursite.com/2018/01/01/操作系统/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-03-12T10:05:11.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>进程  线程  信号量  进程间通信  死锁<br>进程调度算法<br>存储  虚拟存储  分页分段  内存调度算法<br>文件系统  链式  索引</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;进程  线程  信号量  进程间通信  死锁&lt;br&gt;进程调度算法&lt;br&gt;存储  虚拟存储  分页分段  内存调度算法&lt;br&gt;文件系统  链式  索引&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="CS" scheme="http://yoursite.com/categories/CS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构</title>
+    <link href="http://yoursite.com/2018/01/01/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <id>http://yoursite.com/2018/01/01/数据结构/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-03-12T10:05:27.179Z</updated>
+    
+    <content type="html"><![CDATA[<p>时间复杂度O(n)  算法基础知识<br>线性表  栈  队列  数组  广义表<br>字符串  模式匹配<br>树 二叉树 二叉搜索树  哈夫曼  贪心算法<br>图  广度优先  深度优先  最短路径<br>九大排序<br>查找</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;时间复杂度O(n)  算法基础知识&lt;br&gt;线性表  栈  队列  数组  广义表&lt;br&gt;字符串  模式匹配&lt;br&gt;树 二叉树 二叉搜索树  哈夫曼  贪心算法&lt;br&gt;图  广度优先  深度优先  最短路径&lt;br&gt;九大排序&lt;br&gt;查找&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="CS" scheme="http://yoursite.com/categories/CS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式</title>
+    <link href="http://yoursite.com/2018/01/01/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://yoursite.com/2018/01/01/设计模式/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T11:56:44.049Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="设计模式" scheme="http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tomcat</title>
+    <link href="http://yoursite.com/2018/01/01/Tomcat/"/>
+    <id>http://yoursite.com/2018/01/01/Tomcat/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:18:42.694Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Web开发基本概念"><a href="#Web开发基本概念" class="headerlink" title="Web开发基本概念"></a>Web开发基本概念</h3><ol><li>静态web  动态web  怎么访问的</li><li>常见Web服务器</li></ol><h3 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h3><ol><li>安装、启动、测试、常见问题javahome  端口占用</li><li>tomcat服务器端口配置conf文件夹下server.xml配置文件</li><li>服务器虚拟目录映射</li></ol><p>Eclipse绑定tomcat并发布</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Web开发基本概念&quot;&gt;&lt;a href=&quot;#Web开发基本概念&quot; class=&quot;headerlink&quot; title=&quot;Web开发基本概念&quot;&gt;&lt;/a&gt;Web开发基本概念&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;静态web  动态web  怎么访问的&lt;/li&gt;
+&lt;li&gt;常见Web服务
+      
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="Tomcat" scheme="http://yoursite.com/tags/Tomcat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>log4j</title>
+    <link href="http://yoursite.com/2018/01/01/log4j/"/>
+    <id>http://yoursite.com/2018/01/01/log4j/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:20:55.309Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="log4j" scheme="http://yoursite.com/tags/log4j/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XML</title>
+    <link href="http://yoursite.com/2018/01/01/XML/"/>
+    <id>http://yoursite.com/2018/01/01/XML/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-03-12T10:06:10.220Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="XML" scheme="http://yoursite.com/tags/XML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Struts2</title>
+    <link href="http://yoursite.com/2018/01/01/Struts2/"/>
+    <id>http://yoursite.com/2018/01/01/Struts2/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:00:02.331Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="Struts2" scheme="http://yoursite.com/tags/Struts2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringCloud</title>
+    <link href="http://yoursite.com/2018/01/01/SpringCloud/"/>
+    <id>http://yoursite.com/2018/01/01/SpringCloud/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-06-26T11:49:04.047Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="SpringCloud" scheme="http://yoursite.com/tags/SpringCloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringMVC</title>
+    <link href="http://yoursite.com/2018/01/01/SpringMVC/"/>
+    <id>http://yoursite.com/2018/01/01/SpringMVC/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-06-26T11:48:57.833Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="SpringMVC" scheme="http://yoursite.com/tags/SpringMVC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot</title>
+    <link href="http://yoursite.com/2018/01/01/SpringBoot/"/>
+    <id>http://yoursite.com/2018/01/01/SpringBoot/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-06-26T11:47:46.791Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="SpringBoot" scheme="http://yoursite.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring</title>
+    <link href="http://yoursite.com/2018/01/01/Spring/"/>
+    <id>http://yoursite.com/2018/01/01/Spring/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-06-26T11:47:54.973Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="Spring" scheme="http://yoursite.com/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git</title>
+    <link href="http://yoursite.com/2018/01/01/Git/"/>
+    <id>http://yoursite.com/2018/01/01/Git/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:07:19.154Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shiro</title>
+    <link href="http://yoursite.com/2018/01/01/Shiro/"/>
+    <id>http://yoursite.com/2018/01/01/Shiro/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:01:39.087Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="Shiro" scheme="http://yoursite.com/tags/Shiro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Servlet</title>
+    <link href="http://yoursite.com/2018/01/01/Servlet/"/>
+    <id>http://yoursite.com/2018/01/01/Servlet/</id>
+    <published>2017-12-31T16:00:00.000Z</published>
+    <updated>2018-01-12T12:02:02.667Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="JavaWeb" scheme="http://yoursite.com/categories/JavaWeb/"/>
+    
+    
+      <category term="Servlet" scheme="http://yoursite.com/tags/Servlet/"/>
+    
+  </entry>
+  
+</feed>
